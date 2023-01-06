@@ -27,6 +27,4 @@ sudo chown root:root /usr/bin/chromedriver
 
 sudo chmod +x /usr/bin/chromedriver
 
-sudo chromedriver --port=4444 --detach=true &
 
-sudo /usr/local/flutter/bin/flutter drive --driver=/home/vsts/work/1/s/test_driver/main.dart --target=/home/vsts/work/1/s/integration_test/app_test.dart -d web-server
